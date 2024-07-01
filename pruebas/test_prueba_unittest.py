@@ -9,6 +9,7 @@ class TestPrueba(unittest.TestCase):
         - Se creo el carrito de compras vacío - OK
         """)
 
+
     def test_agregar_producto(self):
         print("""
         #2 - Código necesario para agregar el producto al carrito de compras
