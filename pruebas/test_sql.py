@@ -5,7 +5,7 @@ import unittest
 class TestSQL(unittest.TestCase):
 
     def setUp(self):
-        self.db = sqlite3.connect("./test.db")
+        self.db = sqlite3.connect("../test.db")
         self.cursor = self.db.cursor()
         self.cursor.execute("DELETE FROM persona")
         self.db.commit()
