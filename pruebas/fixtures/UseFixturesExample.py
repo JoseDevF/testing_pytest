@@ -7,7 +7,7 @@ import pytest
 def db_connection():
     # Obtén la ruta absoluta del archivo de la base de datos
     db_path = os.path.abspath("test.db")
-    print(f"Conectando a la base de datos en: {db_path}")
+    # print(f"Conectando a la base de datos en: {db_path}")
 
     # Establece la conexión a la base de datos
     conn = sqlite3.connect(db_path)
